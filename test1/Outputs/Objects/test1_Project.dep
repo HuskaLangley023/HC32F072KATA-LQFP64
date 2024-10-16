@@ -1,0 +1,94 @@
+Dependencies for Project 'test1', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (.\hc32f072\mcu\common\system_hc32f072.c)(0x61F0D9F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./hc32f072/mcu/common -I ./hc32f072/driver/inc -I ./hc32f072/midware/inc -I ./userapp/inc -I ./userapp/src-I./RTE/_Project-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM0P -D_RTE_-o ./outputs/objects/system_hc32f072.o -MD)
+I (hc32f072\mcu\common\base_types.h)(0x61F0D9F8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (hc32f072\mcu\common\hc32f072.h)(0x61F0D9F8)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (hc32f072\mcu\common\system_hc32f072.h)(0x61F0D9F8)
+I (hc32f072\driver\inc\sysctrl.h)(0x61F0D9F3)
+I (hc32f072\driver\inc\ddl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\board_evbhc32lf07x.h)(0x62187F02)
+I (hc32f072\mcu\common\interrupts_hc32f072.h)(0x61F0D9F8)
+I (userapp\inc\ddl_device.h)(0x62D27DAE)
+F (.\hc32f072\mcu\common\interrupts_hc32f072.c)(0x61F0D9F8)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./hc32f072/mcu/common -I ./hc32f072/driver/inc -I ./hc32f072/midware/inc -I ./userapp/inc -I ./userapp/src-I./RTE/_Project-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM0P -D_RTE_-o ./outputs/objects/interrupts_hc32f072.o -MD)
+I (hc32f072\driver\inc\ddl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\base_types.h)(0x61F0D9F8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (hc32f072\mcu\common\board_evbhc32lf07x.h)(0x62187F02)
+I (hc32f072\mcu\common\hc32f072.h)(0x61F0D9F8)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (hc32f072\mcu\common\system_hc32f072.h)(0x61F0D9F8)
+I (hc32f072\driver\inc\sysctrl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\interrupts_hc32f072.h)(0x61F0D9F8)
+I (userapp\inc\ddl_device.h)(0x62D27DAE)
+F (.\hc32f072\startup_hc32f072.s)(0x62D27DAE)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_Project-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0plus/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM0P SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./outputs/objects/startup_hc32f072.o)
+F (.\hc32f072\driver\src\ddl.c)(0x61F0D9F4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./hc32f072/mcu/common -I ./hc32f072/driver/inc -I ./hc32f072/midware/inc -I ./userapp/inc -I ./userapp/src-I./RTE/_Project-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM0P -D_RTE_-o ./outputs/objects/ddl.o -MD)
+I (hc32f072\driver\inc\ddl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\base_types.h)(0x61F0D9F8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (hc32f072\mcu\common\board_evbhc32lf07x.h)(0x62187F02)
+I (hc32f072\mcu\common\hc32f072.h)(0x61F0D9F8)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (hc32f072\mcu\common\system_hc32f072.h)(0x61F0D9F8)
+I (hc32f072\driver\inc\sysctrl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\interrupts_hc32f072.h)(0x61F0D9F8)
+I (userapp\inc\ddl_device.h)(0x62D27DAE)
+F (.\hc32f072\driver\src\sysctrl.c)(0x61F0D9F4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./hc32f072/mcu/common -I ./hc32f072/driver/inc -I ./hc32f072/midware/inc -I ./userapp/inc -I ./userapp/src-I./RTE/_Project-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM0P -D_RTE_-o ./outputs/objects/sysctrl.o -MD)
+I (hc32f072\driver\inc\sysctrl.h)(0x61F0D9F3)
+I (hc32f072\driver\inc\ddl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\base_types.h)(0x61F0D9F8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (hc32f072\mcu\common\board_evbhc32lf07x.h)(0x62187F02)
+I (hc32f072\mcu\common\hc32f072.h)(0x61F0D9F8)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (hc32f072\mcu\common\system_hc32f072.h)(0x61F0D9F8)
+I (hc32f072\mcu\common\interrupts_hc32f072.h)(0x61F0D9F8)
+I (userapp\inc\ddl_device.h)(0x62D27DAE)
+F (.\userapp\src\main.c)(0x61F0D9F7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ./hc32f072/mcu/common -I ./hc32f072/driver/inc -I ./hc32f072/midware/inc -I ./userapp/inc -I ./userapp/src-I./RTE/_Project-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/zhu_y/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM0plus/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM0P -D_RTE_-o ./outputs/objects/main.o -MD)
+I (hc32f072\driver\inc\ddl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\base_types.h)(0x61F0D9F8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x63884908)
+I (hc32f072\mcu\common\board_evbhc32lf07x.h)(0x62187F02)
+I (hc32f072\mcu\common\hc32f072.h)(0x61F0D9F8)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (hc32f072\mcu\common\system_hc32f072.h)(0x61F0D9F8)
+I (hc32f072\driver\inc\sysctrl.h)(0x61F0D9F3)
+I (hc32f072\mcu\common\interrupts_hc32f072.h)(0x61F0D9F8)
+I (userapp\inc\ddl_device.h)(0x62D27DAE)
+F (.\userapp\inc\ddl_device.h)(0x62D27DAE)()

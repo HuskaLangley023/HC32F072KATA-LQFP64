@@ -5,7 +5,7 @@
 ".\outputs\objects\ddl.o"
 ".\outputs\objects\sysctrl.o"
 ".\outputs\objects\main.o"
---library_type=microlib --strict --scatter ".\Outputs\Objects\Template.sct"
+--library_type=microlib --strict --scatter ".\Outputs\Objects\test1.sct"
 --keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list ".\Outputs\Listings\Template.map" -o .\Outputs\Objects\Template.axf
+--list ".\Outputs\Listings\test1.map" -o .\Outputs\Objects\test1.axf
