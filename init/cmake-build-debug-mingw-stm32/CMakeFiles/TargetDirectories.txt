@@ -1,0 +1,3 @@
+D:/HC32F072KATA-LQFP64/draft/init/cmake-build-debug-mingw-stm32/CMakeFiles/init.elf.dir
+D:/HC32F072KATA-LQFP64/draft/init/cmake-build-debug-mingw-stm32/CMakeFiles/edit_cache.dir
+D:/HC32F072KATA-LQFP64/draft/init/cmake-build-debug-mingw-stm32/CMakeFiles/rebuild_cache.dir
