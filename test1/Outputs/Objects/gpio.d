@@ -1,4 +1,5 @@
-./outputs/objects/main.o: userapp\src\main.c hc32f072\driver\inc\ddl.h \
+./outputs/objects/gpio.o: hc32f072\driver\src\gpio.c \
+  hc32f072\driver\inc\gpio.h hc32f072\driver\inc\ddl.h \
   hc32f072\mcu\common\base_types.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
@@ -12,5 +13,4 @@
   C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h \
   C:\Users\zhu_y\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h \
   hc32f072\mcu\common\system_hc32f072.h hc32f072\driver\inc\sysctrl.h \
-  hc32f072\mcu\common\interrupts_hc32f072.h userapp\inc\ddl_device.h \
-  hc32f072\driver\inc\gpio.h hc32f072\driver\inc\can.h
+  hc32f072\mcu\common\interrupts_hc32f072.h userapp\inc\ddl_device.h
