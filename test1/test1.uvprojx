@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\hc32f072\mcu\common;.\hc32f072\driver\inc;.\hc32f072\midware\inc;.\userapp\inc;.\userapp\src</IncludePath>
+              <IncludePath>.\hc32f072\mcu\common;.\hc32f072\midware\inc;.\userapp\src;.\userapp\inc;.\Ethernet;.\hc32f072\driver\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -423,6 +423,36 @@
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\hc32f072\driver\src\gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hc32f072\driver\src\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>reset.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hc32f072\driver\src\reset.c</FilePath>
+            </File>
+            <File>
+              <FileName>wizchip_conf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hc32f072\driver\src\wizchip_conf.c</FilePath>
+            </File>
+            <File>
+              <FileName>socket.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hc32f072\driver\src\socket.c</FilePath>
+            </File>
+            <File>
+              <FileName>w5500.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hc32f072\driver\src\w5500.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hc32f072\driver\src\uart.c</FilePath>
             </File>
           </Files>
         </Group>

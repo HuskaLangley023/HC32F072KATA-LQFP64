@@ -6,6 +6,12 @@
 ".\outputs\objects\sysctrl.o"
 ".\outputs\objects\can.o"
 ".\outputs\objects\gpio.o"
+".\outputs\objects\spi.o"
+".\outputs\objects\reset.o"
+".\outputs\objects\wizchip_conf.o"
+".\outputs\objects\socket.o"
+".\outputs\objects\w5500.o"
+".\outputs\objects\uart.o"
 ".\outputs\objects\main.o"
 --library_type=microlib --strict --scatter ".\Outputs\Objects\test1.sct"
 --keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
